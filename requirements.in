@@ -1,0 +1,11 @@
+numpy
+scipy
+h5py
+seaborn
+colorspacious
+notebook
+jupyterlab
+jupyterlab-myst
+ipywidgets
+matplotlib
+ipympl
