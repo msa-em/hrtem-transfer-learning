@@ -1,8 +1,9 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
+  doi: 10.69761/kjte5358
   id: msa-em-hrtem-transfer-learning
-  title:  Strategies for effective transfer learning for HRTEM analysis with neural networks
+  title: Strategies for effective transfer learning for HRTEM analysis with neural networks
   description: A series of case studies using simulated datasets to explore successful recipes for transfer learning
   short_title: Transfer Learning for HRTEM Segmentation
   keywords:
@@ -20,6 +21,10 @@ project:
   banner: banner.png
   # thumbnail: thumbnail.webp
   date: 2025-12-24
+  venue:
+    title: Elemental Microscopy
+    short_title: EM
+    doi: 10.69761/EM
   requirements:
     - 'Dockerfile'
     - requirements.in
@@ -36,7 +41,6 @@ project:
       name: Luis Rangel DaCosta
       corresponding: true
       email: luisrd@berkeley.edu
-      orcid: 0000-0003-2348-8558
       affiliations:
         - id: ucb-mse
           department: Materials Science and Engineering
@@ -57,7 +61,6 @@ project:
       name: Henry Oill
       corresponding: true
       email: henry.g.o@berkeley.edu
-      orcid: 0000-0003-2348-8558
       affiliations:
         - ncem
       roles:
@@ -68,7 +71,6 @@ project:
       name: Mary Scott
       corresponding: true
       email: mary.scott@berkeley.edu
-      orcid: 0000-0001-8338-3323
       affiliations:
         - ucb-mse
         - ncem
@@ -86,7 +88,7 @@ project:
         - luisrd
         - hoill
         - maryscott
-    - statement: This material is based upon work supported by the U.S. Department of Energy, Office of Science, Office of Advanced Scientific Computing Research, Department of Energy Computational Science Graduate Fellowship under Award Number DE-SC0021110. 
+    - statement: This material is based upon work supported by the U.S. Department of Energy, Office of Science, Office of Advanced Scientific Computing Research, Department of Energy Computational Science Graduate Fellowship under Award Number DE-SC0021110.
       id: DE-SC0021110
       sources:
         - name: Office of Science, Office of Advanced Scientific Computing Research, U.S. Department of Energy
@@ -95,7 +97,7 @@ project:
     - statement: This research used resources of the National Energy Research Scientific Computing Center (NERSC), a Department of Energy User Facility using NERSC award BES-ERCAP 32753.
       id: BES-ERCAP 32753
       sources:
-        - name: National Energy Research Scientific Computing Center 
+        - name: National Energy Research Scientific Computing Center
       recipients:
         - luisrd
         - hoill
@@ -114,7 +116,7 @@ project:
     - file: 00_index.md
     - file: 01_intro.md
     - title: Methods
-      children: 
+      children:
         - file: 02_methods_datasets.md
         - file: 03_methods_training.md
         - file: 04_methods_measures.md
@@ -124,11 +126,8 @@ project:
     - file: 10_conclusions.md
     - title: Notebooks
       children:
-      - pattern: 'notebooks/*.ipynb'
+        - pattern: 'notebooks/*.ipynb'
   bibliography:
     - refs.bib
 site:
   template: book-theme
-
-
-
