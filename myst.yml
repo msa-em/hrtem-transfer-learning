@@ -41,6 +41,7 @@ project:
       name: Luis Rangel DaCosta
       corresponding: true
       email: luisrd@berkeley.edu
+      orcid: 0000-0001-8966-0408
       affiliations:
         - id: ucb-mse
           department: Materials Science and Engineering
@@ -71,6 +72,7 @@ project:
       name: Mary Scott
       corresponding: true
       email: mary.scott@berkeley.edu
+      orcid: 0000-0002-9543-6725
       affiliations:
         - ucb-mse
         - ncem
